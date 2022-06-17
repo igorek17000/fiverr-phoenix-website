@@ -145,7 +145,7 @@ const Menu: React.FC < NavProps > = ({
                 
                 
                 
-                <h1 className="text-center center flex center pc">R</h1>
+                <h1 className="text-center center flex center pc">Phoenix</h1>
               
               {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
             </Flex>
@@ -171,16 +171,7 @@ const Menu: React.FC < NavProps > = ({
                   <CakePrice showSkeleton={false} cakePriceUsd={cakePriceUsd} />
                 </Box>
               )}
-              <Box mt="4px">
-                <LangSelector
-                  currentLang={currentLang}
-                  langs={langs}
-                  setLang={setLang}
-                  buttonScale="xs"
-                  color="textSubtle"
-                  hideLanguage
-                />
-              </Box>
+
               {globalMenu} {userMenu}
                <div className="multiverse-navbar-profile__c">
                     <div className="center pnt-it menu_tg pnt-it1 multiverse-navbar-profile">

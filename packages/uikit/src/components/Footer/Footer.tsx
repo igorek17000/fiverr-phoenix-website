@@ -34,7 +34,7 @@ const MenuItem: React.FC<FooterProps> = ({
     <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
-                    <h1 className='text-yellow-500 '>Fiverr-rocket-panckakeswap</h1>
+                    <h1 className='text-yellow-500 '>Fiverr-Phoenix-Website</h1>
            
         </StyledIconMobileContainer>
         <Flex
@@ -67,7 +67,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </StyledList>
           ))}
           <Box display={["none", null, "block"]}>
-                     <h1 className='text-yellow-500 '>Fiverr-rocket-panckakeswap</h1>
+                     <h1 className='text-yellow-500 '>Fiverr-Phoenix-Website</h1>
            
           </Box>
         </Flex>
